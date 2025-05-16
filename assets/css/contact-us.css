@@ -1,0 +1,39 @@
+.section-contact-us {
+  padding: 50px 0px 100px 0px;
+}
+
+.section-contact-us .input-contact,
+.section-contact-us .textarea-contact {
+  background-color: var(--accent); 
+  border: none;
+  border-radius: var(--border-radius-rounded);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.section-contact-us .textarea-contact {
+  border-radius: var(--border-radius-rounded);
+}
+
+.section-contact-us .input-contact::placeholder,
+.section-contact-us .textarea-contact::placeholder {
+  color: var(--darkPrimary);
+  opacity: 1;
+}
+
+.section-contact-us .input-contact:focus,
+.section-contact-us .textarea-contact:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.section-contact-us .btn-contact {
+  border-radius: var(--border-radius-rounded);
+  padding: 0.8rem 2rem;
+  background-color: var(--primary);
+  border: none;
+}
+
+.section-contact-us .btn-contact:hover {
+  background-color: var(--secondary);
+}

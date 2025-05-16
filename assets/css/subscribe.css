@@ -1,0 +1,48 @@
+.card-subscribe {
+  position: relative;
+  padding: 2rem 1rem;
+  border-radius: var(--border-radius-rounded);
+  background-image: url("../img/subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.card-subscribe .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary, rgba(0, 0, 0, 0.5));
+  opacity: 0.8;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.card-subscribe .card-body {
+  position: relative;
+  z-index: 2;
+}
+.card-subscribe .input-subscribe {
+  background-color: var(--white); /* celeste claro */
+  border: none;
+  border-radius: var(--border-radius-rounded);
+  padding: .8rem 2rem;
+  font-size: 1rem;
+}
+
+.card-subscribe .input-subscribe::placeholder {
+  color: var(--primary);
+  opacity: 1;
+}
+
+.card-subscribe .input-subscribe:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.card-subscribe .btn {
+  border-radius: var(--border-radius-rounded);
+  padding: 0.8rem 2rem;
+  border: none;
+}
+

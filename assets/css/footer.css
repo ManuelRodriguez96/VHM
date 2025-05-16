@@ -1,0 +1,4 @@
+.footer-container{
+    background-color: var(--primary, #f8f7f4) !important;
+    color: white !important;
+}

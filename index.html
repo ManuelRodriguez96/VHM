@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us | VEHM</title>
+
+    <!--css-->
+    <!--boostrap cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      as="style"
+      onload='this.onload=null;this.rel="stylesheet"'
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      as="style"
+      onload='this.onload=null;this.rel="stylesheet"'
+    />
+    <!--app.css-->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/hero.css" />
+    <link rel="stylesheet" href="assets/css/contact-us.css" />
+    <link rel="stylesheet" href="assets/css/subscribe.css" />
+    <link rel="stylesheet" href="assets/css/cards-contact.css" />
+    <link rel="stylesheet" href="assets/css/map.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--js-->
+    <script
+      defer=""
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- header nav-->
+    <header class="main-header">
+      <!-- Nuevo contenedor libre de Bootstrap -->
+      <div class="header-wrapper">
+        <div class="container py-3">
+          <div class="row align-items-center">
+            <!-- Logo -->
+            <div class="col-6 col-lg-3">
+              <a href="#" title="VEHM" aria-label="VEHM Home">
+                <img
+                  class="logo"
+                  src="assets/img/vehm-logo.svg"
+                  alt="VEHM Logo"
+                  width="140"
+                  height="40"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+
+            <!-- Menú Desktop -->
+            <nav class="col-lg-9 d-none d-lg-block">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="#">Home</a>
+                </li>
+                <div class="nav-item-wrapper">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link font-weight-bold"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      Destinations <i class="bi bi-chevron-down ms-2"></i>
+                    </a>
+                    <ul class="sublist-dropdown">
+                      <li class="dropdown-item py-2">
+                        <a href="#">Punta Mita | México</a>
+                      </li>
+                      <li class="dropdown-item py-2">
+                        <a href="#">Riviera Nayarit | México</a>
+                      </li>
+                      <li class="dropdown-item py-2">
+                        <a href="#">Riviera Maya | México</a>
+                      </li>
+                      <li class="dropdown-item py-2">
+                        <a href="#">Careyes | México</a>
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+                <div class="nav-item-wrapper">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link font-weight-bold"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      VEHM’s World <i class="bi bi-chevron-down ms-2"></i>
+                    </a>
+                    <ul class="sublist-dropdown text-center">
+                      <li class="dropdown-item py-2">
+                        <a href="#">About us</a>
+                      </li>
+                      <li class="dropdown-item py-2">
+                        <a href="#">Services</a>
+                      </li>
+                      <li class="dropdown-item py-2">
+                        <a href="#">FAQ</a>
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+                <li class="nav-item">
+                  <a
+                    class="nav-link font-weight-bold"
+                    href="https://3d.casa/360/vehm/"
+                    >Interactive Map</a
+                  >
+                </li>
+                <div class="nav-item-wrapper">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link font-weight-bold"
+                      aria-expanded="false"
+                      title="Blog"
+                    >
+                      Blog <i class="bi bi-chevron-down ms-2"></i>
+                    </a>
+
+                    <!-- Mega menú del blog -->
+                    <div class="sublist-blog">
+                      <div class="container">
+                        <div class="row blog-posts g-4">
+                          <!-- Tarjeta 1 -->
+                          <div class="col-12 col-md-6 col-lg-3">
+                            <a href="#" class="d-block text-decoration-none">
+                              <div
+                                class="position-relative rounded overflow-hidden"
+                              >
+                                <img
+                                  src="assets/img/villa.webp"
+                                  alt="Discover Villa Samba"
+                                  class="img-fluid"
+                                  style="object-fit: cover"
+                                />
+                                <div
+                                  class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50"
+                                >
+                                  <h5 class="text-white m-0">Read More</h5>
+                                </div>
+                              </div>
+                              <h6 class="mt-2 text-dark">
+                                Discover Villa Samba: Your Luxurious Coastal
+                                Escape in Punta Mita
+                              </h6>
+                            </a>
+                          </div>
+
+                          <!-- Tarjeta 2 -->
+                          <div class="col-12 col-md-6 col-lg-3">
+                            <a href="#" class="d-block text-decoration-none">
+                              <div
+                                class="position-relative rounded overflow-hidden"
+                              >
+                                <img
+                                  src="assets/img/golf.webp"
+                                  alt="Punta Mita Golf Courses"
+                                  class="img-fluid"
+                                  style="object-fit: cover"
+                                />
+                                <div
+                                  class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50"
+                                >
+                                  <h5 class="text-white m-0">Read More</h5>
+                                </div>
+                              </div>
+                              <h6 class="mt-2 text-dark">
+                                Punta Mita Golf Courses: The Crown Jewels of
+                                Luxury Golf
+                              </h6>
+                            </a>
+                          </div>
+
+                          <!-- Tarjeta 3 -->
+                          <div class="col-12 col-md-6 col-lg-3">
+                            <a href="#" class="d-block text-decoration-none">
+                              <div
+                                class="position-relative rounded overflow-hidden"
+                              >
+                                <img
+                                  src="assets/img/kitchens.webp"
+                                  alt="Hector Kitchens Fish Market"
+                                  class="img-fluid"
+                                  style="object-fit: cover"
+                                />
+                                <div
+                                  class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50"
+                                >
+                                  <h5 class="text-white m-0">Read More</h5>
+                                </div>
+                              </div>
+                              <h6 class="mt-2 text-dark">
+                                Fish Market Tour: Culinary Adventure in La Cruz
+                              </h6>
+                            </a>
+                          </div>
+
+                          <!-- Tarjeta 4 -->
+                          <div class="col-12 col-md-6 col-lg-3">
+                            <a href="#" class="d-block text-decoration-none">
+                              <div
+                                class="position-relative rounded overflow-hidden"
+                              >
+                                <img
+                                  src="assets/img/beach.webp"
+                                  alt="Best Beach Clubs in Punta Mita"
+                                  class="img-fluid"
+                                  style="object-fit: cover"
+                                />
+                                <div
+                                  class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50"
+                                >
+                                  <h5 class="text-white m-0">Read More</h5>
+                                </div>
+                              </div>
+                              <h6 class="mt-2 text-dark">
+                                Exploring the Best Beach Clubs in Punta Mita
+                              </h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Menú Mobile (toggle) -->
+            <div class="col-6 d-lg-none text-end">
+              <button
+                class="btn menu-toggle"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu"
+                aria-controls="mobileMenu"
+              >
+                <i class="bi bi-list"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Offcanvas Mobile Menu -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="mobileMenuLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 id="mobileMenuLabel">Menú</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="offcanvas-body offcanvas-menu">
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Punta Mita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Riviera Nayarit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Riviera Maya</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careyes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://3d.casa/360/vehm/"
+                  >Interactive Map</a
+                >
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- end header nav -->
+
+    <!-- Hero section-->
+    <section class="section-hero">
+      <div class="overlay"></div>
+      <div class="container hero-content px-4">
+        <h1 class="text-white font-weight-bold py-2">
+          Effortless Luxury, Just a Message Away
+        </h1>
+        <h5 class="text-white hero-wrap font-weight-bold py-2">
+          At VEHM, we believe that true luxury is seamless.
+        </h5>
+        <p class="text-white hero-wrap py-2">
+          Whether you prefer a direct call, a personalized visit, or an instant
+          chat, our team is ready to assist you with every detail. Your perfect
+          stay begins here.
+        </p>
+      </div>
+    </section>
+
+    <section class="container section-contact-us px-4">
+      <div class="row g-4 mb-4">
+        <div class="col-12">
+          <h2>Contact Us</h2>
+        </div>
+      </div>
+      <div class="row g-5">
+        <!-- Formulario -->
+        <div class="col-12 col-md-6 col-lg-8">
+          <form>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control input-contact"
+                id="name"
+                name="name"
+                placeholder="Your full name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="tel"
+                class="form-control input-contact"
+                id="phone"
+                name="phone"
+                placeholder="Your phone number"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control textarea-contact"
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-contact text-white mt-2">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Newsletter card -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-subscribe shadow-sm">
+            <div class="overlay"></div>
+            <div class="card-body position-relative">
+              <h5 class="card-title text-white font-weight-bold mb-3">
+                Our Newsletters
+              </h5>
+              <p class="card-text text-white mb-5">
+                Stay updated with our latest news and exclusive offers.
+                Subscribe to our newsletter by entering your email below.
+              </p>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control input-subscribe"
+                  id="newsletter-email"
+                  placeholder="Email"
+                />
+              </div>
+              <button type="submit" class="btn btn-dark text-white w-100">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--cards -->
+    <section class="container section-cards-contact px-4">
+      <div class="row g-5">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-5">
+            <div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-telephone fs-2"></i>
+                <h3 class="mb-0 fw-bold">Call Us</h3>
+              </div>
+              <p class="mb-0 small">
+                Speak with a dedicated specialist for tailored recommendations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-5">
+            <div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-geo-alt fs-2"></i>
+                <h3 class="mb-0 fw-bold">Visit Us</h3>
+              </div>
+              <p class="mb-0 small">
+                Schedule a one-on-one consultation and explore our exclusive
+                portfolio.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-5">
+            <div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-whatsapp fs-2"></i>
+                <h3 class="mb-0 fw-bold">Start Chat</h3>
+              </div>
+              <p class="mb-0 small">
+                Get instant assistance from our team, anytime, anywhere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section map-->
+    <section class="container section-map px-4">
+      <div class="row g-5 align-items-stretch">
+        <!-- Mapa -->
+        <div class="col-12 col-md-6 col-lg-8">
+          <div class="rounded overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1760.5317525684159!2d-105.52199178309722!3d20.773606964628396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84211300322ec8db%3A0xc642045894c906a0!2sVEHM%20Rentals!5e0!3m2!1ses-419!2smx!4v1742941588387!5m2!1ses-419!2smx"
+              class="w-100 border-0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Imagen del costado -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <img
+            src="assets/img/ask.webp"
+            alt="VEHM Location"
+            class="img-fluid h-100 w-100 object-fit-cover rounded"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--footer section-->
+
+    <footer class="footer-container px-4">
+      <div class="container pt-4 pb-4">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="footer-more-info pb-4 pb-md-0">
+              <h5 class="text-white">Request more information</h5>
+              <ul class="list-unstyled pt-2 pb-3">
+                <li class="mt-3">
+                  <a
+                    class="p-2 btn btn-light"
+                    href="#"
+                    title="Contact a personal vacation advisor"
+                    >Contact a personal vacation advisor</a
+                  >
+                </li>
+              </ul>
+              <a href="#" class="btn btn-light" title="Become a host"
+                >Become a host</a
+              >
+              <h5 class="text-white mt-4">Awards</h5>
+              <div
+                class="d-flex flex-column justify-content-between align-items-start badges-container"
+              >
+                <img
+                  loading="lazy"
+                  class="object-fit-contain mb-3"
+                  width="150"
+                  height="80"
+                  src="/assets/img/footer/vehm-airbnb.svg"
+                  alt="Logo de Airbnb Superhost"
+                />
+                <img
+                  loading="lazy"
+                  class="object-fit-contain"
+                  width="150"
+                  height="80"
+                  src="/assets/img/footer/vehm-vrbo.svg"
+                  alt="Logo de Vrbo Premier Host"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="footer-properties">
+                  <h5 class="text-white">Properties</h5>
+                  <ul class="list-unstyled pt-2 pb-3">
+                    <li class="punta-mita p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Punta Mita"
+                      >
+                        Punta Mita</a
+                      >
+                    </li>
+                    <li class="riviera-maya p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Riviera Maya"
+                      >
+                        Riviera Maya</a
+                      >
+                    </li>
+                    <li class="riviera-nayarit p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Riviera Nayarit"
+                      >
+                        Riviera Nayarit</a
+                      >
+                    </li>
+                    <li class="careyes p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Careyes"
+                      >
+                        Careyes</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="footer-company">
+                  <h5 class="text-white">Company</h5>
+                  <ul class="list-unstyled pt-2 pb-3">
+                    <li class="about-us p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="About us"
+                      >
+                        About us</a
+                      >
+                    </li>
+                    <li class="services p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Services"
+                      >
+                        Services</a
+                      >
+                    </li>
+                    <li class="faq p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="FAQ"
+                      >
+                        FAQ</a
+                      >
+                    </li>
+                    <li class="blog p-2 px-lg-3 m-lg-0 m-0">
+                      <a
+                        href="#"
+                        class="d-flex justify-content-start text-white p-0 p-0"
+                        title="Blog"
+                      >
+                        Blog</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center cards-container pt-4"
+                >
+                  <img
+                    loading="lazy"
+                    class="object-fit-contain m-2"
+                    width="50"
+                    height="50"
+                    src="/assets/img/footer/vehm-visa.svg"
+                    alt="Logo de Visa"
+                  />
+                  <img
+                    loading="lazy"
+                    class="object-fit-contain m-2"
+                    width="50"
+                    height="50"
+                    src="/assets/img/footer/vehm-mastercard.svg"
+                    alt="Logo de Mastercard"
+                  />
+                  <img
+                    loading="lazy"
+                    class="object-fit-contain m-2"
+                    width="50"
+                    height="50"
+                    src="/assets/img/footer/vehm-american-express.svg"
+                    alt="Logo de American Express"
+                  />
+                  <img
+                    loading="lazy"
+                    class="object-fit-contain m-2"
+                    width="50"
+                    height="50"
+                    src="/assets/img/footer/vehm-paypal.svg"
+                    alt="Logo de Paypal"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <h6 class="fw-bold text-white">Email Us</h6>
+                <a href="mailto:info@vehm.mx" class="text-white" title="Email">
+                  <i class="bi bi-envelope text-white"></i> info@vehm.mx
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="footer-contact">
+              <div class="footer-phones-block mb-5">
+                <h6 class="fw-bold text-white">
+                  Punta Mita Showroom - Punta Mita Village
+                </h6>
+                <p class="text-white">
+                  Int, Ave Las Redes No. 1-int. A, 63734 Corral del Risco, Nay.
+                </p>
+                <a
+                  class="text-white"
+                  href="https://maps.app.goo.gl/65d8vZyPKAdeBwFs8"
+                  target="_blank"
+                  title="Int, Ave Las Redes No. 1-int. A, 63734 Corral del Risco, Nay"
+                >
+                  <i class="bi bi-geo-alt text-white"></i> Google Maps
+                </a>
+              </div>
+              <div class="footer-phones-block mb-5">
+                <h6 class="fw-bold text-white">Monterrey Office - Torre Albia</h6>
+                <p class="text-white">
+                  Blvd. Antonio L. Rodríguez 3000, Piso 17, Oficina #1701 64650
+                  Monterrey, N.L.
+                </p>
+                <a
+                  class="text-white"
+                  href="https://maps.app.goo.gl/z21jwvSJyyxnRzXu8"
+                  target="_blank"
+                  title="Google map - Monterrey Office - Torre Albia"
+                >
+                  <i class="bi bi-geo-alt text-white"></i> Google Maps
+                </a>
+              </div>
+              <div class="footer-phones-block row">
+                <div class="col-12 col-md-6 d-flex flex-column mb-4">
+                  <h6 class="fw-bold text-white">Phone (Mx)</h6>
+                  <a class="mb-3 text-white" href="tel:+528112735492" title="Phone (Mx)">
+                    <i class="bi bi-telephone text-white"></i> +52 (81) 1273 5492
+                  </a>
+                  <a class="text-white" href="tel:+528117495571" title="Phone (Mx)">
+                    <i class="bi bi-telephone text-white"></i> +52 (81) 1749 5571
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column">
+                  <h6 class="fw-bold text-white">Phone (US)</h6>
+                  <a class="text-white" href="tel:+19563131511" title="Phone (US)">
+                    <i class="bi bi-telephone text-white"></i> +1 (956) 313-1511
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 bg-dark-gray">
+        <div class="container pt-3 pb-3">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="col-12 col-md-6 text-white p-0 m-0">
+                VEHM 2025 All rights reserved
+              </h6>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex justify-content-start justify-content-md-end pt-4 pt-md-0 flex-wrap"
+            >
+              <div
+                class="ms-3 me-3 mb-3 mb-md-0 d-flex flex-row justify-content-between align-items-center"
+              >
+                <a
+                  class="text-white mx-2"
+                  href="#"
+                  target="_blank"
+                  aria-label="Vehm instagram"
+                >
+                  Privacy Notice
+                </a>
+                <a
+                  class="text-white mx-2"
+                  href="#"
+                  target="_blank"
+                  aria-label="Vehm instagram"
+                >
+                  Terms and Conditions
+                </a>
+              </div>
+              <a
+                class="ms-3 me-3"
+                href="https://www.instagram.com/vehm.mx/"
+                target="_blank"
+                aria-label="Vehm instagram"
+              >
+                <i class="fs-5 text-white bi bi-instagram"></i>
+              </a>
+              <a
+                class="ms-3 me-3"
+                href="https://www.facebook.com/p/vehmmx-100063221020381/"
+                target="_blank"
+                aria-label="Vehm facebook"
+              >
+                <i class="fs-5 text-white bi bi-facebook"></i>
+              </a>
+              <a
+                class="ms-3 me-3"
+                href="https://www.tiktok.com/@vehm.mx"
+                target="_blank"
+                aria-label="Vehm tiktok"
+              >
+                <i class="fs-5 text-white bi bi-tiktok"></i>
+              </a>
+              <a
+                class="ms-3 me-3"
+                href="https://www.linkedin.com/company/vehm/?originalSubdomain=mx"
+                target="_blank"
+                aria-label="Vehm linkedin"
+              >
+                <i class="fs-5 text-white bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

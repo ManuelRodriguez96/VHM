@@ -1,0 +1,137 @@
+/* ==================================================
+   VARIABLES GLOBALES
+================================================== */
+:root {
+  --primary: #659191;
+  --secondary: #98b9ba;
+  --accent: #cddce5;
+  --darkPrimary: #375050;
+  --white: #fff;
+  --black: #000;
+  --darkGray: #444;
+  --light: #d0d0d0;
+  --dark: #222;
+  --bns: #f2eee8;
+  --bns-light: #f8f7f4;
+  --bns-dark: #c7b69c;
+  --snb: #e5e2dc;
+  --btnBackground: #b5ad9c;
+  --btnBackHover: #605948;
+  --snb-light: #f2f1ee;
+  --snb-dark: #b5ad9c;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --error: #f54a45;
+  --success: #7dc67d;
+
+  --border-radius-rounded: 25px;
+  --border-radius-md: 10px;
+
+}
+
+/* ==================================================
+     RESET + BASE GLOBAL
+  ================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 1000px;
+  height: 100%;
+}
+html,
+body {
+  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-display: swap;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--gray-900);
+  background-color: var(--white);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.btn-sepia,
+.btn-white,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.text-gray,
+.text-gray-hover:hover,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--darkGray) !important;
+}
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Responsive: reduce tamaño en pantallas pequeñas */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+}

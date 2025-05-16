@@ -1,0 +1,9 @@
+.section-map{
+    padding: 50px 0px 150px 0px;
+}
+.section-map iframe,
+.section-map img {
+  height: 400px !important;
+  object-fit: cover;
+  border-radius: var(--border-radius-rounded);
+}
